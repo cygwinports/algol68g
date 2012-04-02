@@ -1,0 +1,6 @@
+DESCRIPTION="Algol 68 Genie interpreter"
+HOMEPAGE="http://jmvdveer.home.xs4all.nl/algol.html"
+SRC_URI="http://jmvdveer.home.xs4all.nl/${P}.tar.gz"
+PATCH_URI="2.3.7-fix-install.patch"
+
+DISTCLEANFILES="a86g-config.h"
