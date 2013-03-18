@@ -1,0 +1,15 @@
+NAME="algol68g"
+VERSION=2.6
+RELEASE=1
+CATEGORY="Interpreters"
+SUMMARY="Algol 68 Genie interpreter"
+DESCRIPTION="The development of Algol played an important role in establishing
+computer science as an academic discipline. The Algol 68 Genie project
+preserves and promotes Algol 68 out of educational as well as scientific-
+historical interest, by making available a recent checkout compiler-interpreter
+written from scratch."
+HOMEPAGE="http://jmvdveer.home.xs4all.nl/algol.html"
+SRC_URI="http://jmvdveer.home.xs4all.nl/${P}.tar.gz"
+PATCH_URI="2.6-fix-install.patch"
+
+DISTCLEANFILES="source/a86g-config.h"

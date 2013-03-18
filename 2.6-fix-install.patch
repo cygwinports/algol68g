@@ -1,0 +1,15 @@
+--- origsrc/algol68g-2.6/Makefile.am
++++ src/algol68g-2.6/Makefile.am
+@@ -259,11 +259,11 @@ TESTS=check-01.a68 check-02.a68 check-03
+ 
+ if EXPORT_DYNAMIC
+ a68g_LDFLAGS = -Wl,--export-dynamic
++pkginclude_HEADERS = source/a68g.h source/a68g-config.h
+ else
+ a68g_LDFLAGS =
+ endif
+ 
+-pkginclude_HEADERS = source/a68g.h source/a68g-config.h
+ man_MANS = doc/a68g.1
+ docdir = @docdir@
+ doc_DATA = AUTHORS COPYING NEWS README 
